@@ -1,0 +1,180 @@
+.banner {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  height: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* ------------------------------
+--------------input--------------
+-------------------------------- */
+.banner .btn1 {
+  position: absolute;
+  height: 5%;
+  width: 8%;
+  top: 2.5%;
+  left: 96%;
+  transform: translate(-50%, -50%);
+  background-color: #ff0000;
+  color: white;
+  font-size: 120%;
+  font-weight:bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: center;
+}
+.banner .btn1:hover {
+  background-color: rgb(122, 122, 122);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.banner .function .user1 {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+.banner .function .user2 {
+  position: absolute;
+  top: 40%;
+  left: 42%;
+}
+.banner .function .user3 {
+  position: absolute;
+  top: 40%;
+  left: 64%;
+}
+.banner .box{
+  position: absolute;
+  background-color: black;
+  width: 75%;
+  height: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  cursor: pointer;
+  opacity:0.3;
+
+}
+.banner h1{
+  position: absolute;
+  color: rgb(251, 255, 0);
+  font-size: 52px;
+  top: 14%;
+  left: 15%;
+}
+
+.banner h2{
+  position: absolute;
+  color: rgb(251, 255, 0);
+  font-size: 20px;
+  top: 30%;
+  left: 15%;
+}
+
+figcaption p {
+  font-size: 4px;
+  color: rgb(251, 255, 0);
+  margin-top: -1px;
+}
+
+/* ------------------------------
+----------input done---------
+-------------------------------- */
+.banner .next {
+  position: absolute;
+  top: 50%;
+  left: 85%;
+}
+
+.banner .last {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+@media screen and  (max-width: 414px) {
+  .banner{
+     width:300%;
+     display: block;
+      margin-left: auto;
+      margin-right:auto;
+  }
+  .banner .function .user1 {
+    height:20%;
+    top: 15%;
+    left: 7%;
+  }
+  .banner .function .user2 {
+    top: 41%;
+    left: 7%;
+  }
+  .banner .function .user3 {
+    top: 67%;
+    left: 7%;
+  }
+ 
+
+  .banner .box{
+    position: absolute;
+    background-color: black;
+    width: 28%;
+    height: 90%;
+    top: 52%;
+    left: 17.5%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    cursor: pointer;
+    opacity:0.3;
+  }
+
+  .banner h1{
+    top: 1%;
+    left: 5%;
+  }
+  
+  .banner h2{
+    top: 12%;
+    left: 5%;
+  }
+
+  .banner .next {
+    position: absolute;
+    top: 50%;
+    left: 29%;
+  }
+  .banner .last {
+    position: absolute;
+    top: 50%;
+    left:5%;
+  }
+  .banner .btn1 {
+    left: 31%;
+
+  } 
+
+}
+
+@media screen and  (min-width: 825px) {
+ 
+  .banner h1{
+    top: 18%;
+  }
+  
+  figcaption p {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+

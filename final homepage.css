@@ -1,0 +1,288 @@
+.banner {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.banner img {
+  height: auto;
+}
+/* ------------------------------
+---------banner button---------
+-------------------------------- */
+
+.banner .btn1 {
+  position: absolute;
+  height: 10%;
+  width: 15%;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ff0000;
+  color: white;
+  font-size: 120%;
+  font-weight:bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* --------mouse reach this area--------- */
+.banner .btn1:hover {
+  background-color: rgb(122, 122, 122);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.banner .btn2 {
+  position: absolute;
+  height: 10%;
+  width: 8%;
+  top: 5%;
+  left: 96%;
+  transform: translate(-50%, -50%);
+  background-color: #ff0000;
+  color: white;
+  font-size: 120%;
+  font-weight:bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: center;
+}
+.banner .btn2:hover {
+  background-color: rgb(122, 122, 122);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.banner .btn3{
+  position: absolute;
+  top: 7%;
+  left: 89%;
+  transform: translate(-50%, -50%);
+  background:url(langguagebtn.png) no-repeat;
+  cursor:pointer;
+  border:none;
+  height: 10%;
+  width: 5%;
+}
+
+.banner .btn3:active 
+{   
+  background:url(nothing.png) no-repeat;
+}
+
+h2{
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.banner .btn4 {
+  position: absolute;
+  height: 10%;
+  width: 6%;
+  top: 71%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  background-color: #ff0000;
+  color: white;
+  font-size: 50%;
+  font-weight:bold;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+}
+.banner .btn4:hover {
+  background-color: rgb(122, 122, 122);
+  color: white;
+}
+
+.banner .search {
+  position: absolute;
+  height: 10%;
+  width: 15%;
+  top: 68%;
+  left: 72%;
+  transform: translate(-50%, -50%);
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  
+}
+
+/* ------------------------------
+------banner button done-------
+-------------------------------- */
+
+/* ------------------------------
+------------functions------------
+-------------------------------- */
+.function {
+  display: inline;
+  justify-content: space-around;
+}
+
+figure {
+  width: 8%;
+  display: inline-block;
+}
+
+figure img{
+  display:block;
+  margin:auto;
+  align-self: center;
+  align-items: center;
+}
+figcaption{
+  text-align: center;
+}
+
+/* ------------------------------
+------------functions done----
+-------------------------------- */
+
+
+
+/* ------------------------------
+------------footer------------
+-------------------------------- */
+.footer {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.footer img {
+  width: 100%;
+  height: auto;
+}
+
+
+.footer .socialmedia {
+  position: absolute;
+  height: 10%;
+  width: 15%;
+  top: 70%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+ 
+}
+/* ------------------------------
+------------footer done------------
+-------------------------------- */
+
+
+
+/* --------media--------- */
+
+@media screen and  (max-width: 900px) {
+  .banner .btn1 {
+    font-size: 80%;
+  }
+}
+
+@media screen and  (max-width: 600px) {
+
+  .banner .btn1 {
+    width: 80px;
+    font-size: 48%;
+  }
+}
+
+@media screen and  (max-width: 1090px) {
+  .banner .btn2 {
+    font-size: 80%;
+  }
+}
+@media screen and  (max-width: 900px) {
+
+  .banner .btn2 {
+    font-size: 50%;
+  }
+}
+@media screen and  (max-width: 775px) {
+
+  .banner .btn2 {
+    height: 21%;
+    top: 10%;
+  }
+}
+
+@media screen and  (max-width: 824px) {
+
+  figure {
+    width: 2%;
+    display: inline-block;
+  }
+
+
+}
+
+@media screen and  (max-width: 414px) {
+  .banner .btn1 {
+    width: 20%;
+    height: 25%;
+    font-size: 1%;
+  }
+
+  figure{
+    width:0.002%;
+  }
+  h2 {
+   font-size: 14px;
+   display: block
+  }
+  p {
+    font-size: 3px;
+  }
+
+  figure {
+    width: 7%;
+    display: inline-block;
+  }
+
+  figure img{
+    display:inline;
+    margin:left;
+    align-self: left;
+    align-items: left;
+    
+  }
+
+  .banner .btn2 {
+    width: 20%;
+    height: 25%;
+    top: 12%;
+    left: 90%;
+    font-size: 60%;
+  }
+
+  .banner .btn4 {
+    width: 20%;
+    height: 13%;
+    top: 74%;
+    left: 74.5%;
+
+  }
+
+  .banner .search {
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    top: 54%;
+    left: 74.5%;
+    border-radius: 2px;
+    font-size: 1px;
+  }
+
+  
+
+
+}
+

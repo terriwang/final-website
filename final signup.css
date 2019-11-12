@@ -1,0 +1,206 @@
+.banner {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+/* ------------------------------
+--------------input--------------
+-------------------------------- */
+.banner .btn1 {
+  position: absolute;
+  height: 5%;
+  width: 8%;
+  top: 2.5%;
+  left: 96%;
+  transform: translate(-50%, -50%);
+  background-color: #ff0000;
+  color: white;
+  font-size: 120%;
+  font-weight:bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  text-align: center;
+}
+.banner .btn1:hover {
+  background-color: rgb(122, 122, 122);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+input {
+  border-radius: 4px;
+  border-color: black;
+  background-color: black;
+  opacity: 0.5;
+  color:rgb(251, 255, 0);
+
+}
+
+label {
+  font-size: 14px;
+  color: rgb(251, 255, 0);
+  
+}
+
+.banner .name1{
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+.banner .name2{
+  position: absolute;
+  top: 40%;
+  left: 55%;
+}
+
+.banner .email{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+.banner .phone{
+  position: absolute;
+  top: 50%;
+  left: 55%;
+}
+.banner .btd{
+  position: absolute;
+  top: 60%;
+  left: 25%;
+}
+
+
+
+.banner .box{
+  position: absolute;
+  background-color: black;
+  width: 75%;
+  height: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  cursor: pointer;
+  opacity:0.3;
+
+}
+
+.banner h1{
+  position: absolute;
+  color: rgb(251, 255, 0);
+  font-size: 52px;
+  top: 14%;
+  left: 15%;
+}
+
+.banner h2{
+  position: absolute;
+  color: rgb(251, 255, 0);
+  font-size: 20px;
+  top: 30%;
+  left: 15%;
+}
+/* ------------------------------
+----------input done---------
+-------------------------------- */
+.banner .next {
+  position: absolute;
+  top: 50%;
+  left: 85%;
+}
+
+@media screen and  (max-width: 414px) {
+  label {
+    font-size: 14px;
+  }
+  .banner{
+     width:300%;
+     display: block;
+      margin-left: auto;
+      margin-right:auto;
+  }
+  .banner .name1{
+    position: absolute;
+    top: 36%;
+    left: 8%;
+  }
+  .banner .name2{
+    position: absolute;
+    top: 44%;
+    left: 8%;
+  }
+  
+  .banner .email{
+    position: absolute;
+    top: 52%;
+    left: 8%;
+  }
+  .banner .phone{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+  }
+  .banner .btd{
+    position: absolute;
+    top: 68%;
+    left: 8%;
+  }
+
+  .banner .box{
+    position: absolute;
+    background-color: black;
+    width: 28%;
+    height: 80%;
+    top: 50%;
+    left: 17.5%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    cursor: pointer;
+    opacity:0.3;
+  }
+
+  .banner h1{
+    top: 6%;
+    left: 5%;
+  }
+  
+  .banner h2{
+    top: 17%;
+    left: 5%;
+  }
+
+  .banner .next {
+    position: absolute;
+    top: 50%;
+    left: 29%;
+  }
+
+  .banner .btn1 {
+    left: 31%;
+
+  }
+  
+}
+
+
+
+@media screen and  (min-width: 825px) {
+  label {
+    font-size: 16px;
+  }
+ 
+  .banner h1{
+    top: 18%;
+  }
+}
+
+
+
+
+
