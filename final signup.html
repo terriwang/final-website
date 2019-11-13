@@ -9,55 +9,61 @@
 </head>
 
 <body>
-  
+
+<!--background---> 
 <div class="banner">
-    <a href="index.html">
-        <button class="btn1">Home</button>
-        </a>
+  <a href="index.html">
+    <button class="btn1">Home</button>
+  </a>
+  
   <img src="img/background4.png" style="width:100%">
+  
+  <!--semitransparent box---> 
   
   <div class="box">
       
   </div>
+  <!--process guidance---> 
   <h1>Step1</h1>
   <h2>Let's sign you up.</h2>
-  <form>
-  <div class="name1">
-    <label for="firstName">First Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-    <input type="text" name="fname" >
-  </div>
   
-  <div class="name2">
-    <label for="lastName">Last Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-    <input type="text" name="lastName" >
-  </div>
+  <!--froms---> 
+  <form name="myForm" action="final signup2.html" onsubmit="return myFunction()" method="POST">
   
-  <div class="email">
-    <label for="email">Email Address</label> 
-    <input type="email" name="email">
-  </div>
-  <div class="phone">
-    <label for="phone">Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-    <input type="tel" name="phone" >
-  </div>
-</form>
+    <div class="name1">
+      <label for="firstName">First Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+     <input type="text" name="fname" >
+    </div>
+  
+    <div class="name2">
+     <label for="lastName">Last Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+     <input type="text" name="lName" >
+    </div>
+  
+    <div class="email">
+      <label for="email">Email Address</label> 
+      <input type="email" name="email">
+    </div>
 
-  <div class="btd">
-  <label for="dateOfBirth">Date of Birth&nbsp;&nbsp;</label>
-  <input type="date" name="dateOfBirth" placeholder="Date of Birth">
-  </div>
+    <div class="phone">
+      <label for="phone">Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="tel" name="phone" >
+    </div>
 
+
+    <div class="btd">
+      <label for="dateOfBirth">Date of Birth&nbsp;&nbsp;</label>
+      <input type="date" name="dateOfBirth" placeholder="Date of Birth">
+    </div>
+
+   <!--submit button---> 
   <div class="next">
-    <form id="button" onsubmit="return myFunction()" onclick="return myFunction()">
       <a href="final signup2.html">
-        <img src="img/next.png" height="25" width="15">
+        <input class="nottransparent" type="submit" value="next" onsubmit="return myFunction()" method="POST">
       </a>
-    </form>
   <div>
 
- 
- 
-
+  </form>
 </div>
 
 

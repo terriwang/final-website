@@ -1,3 +1,6 @@
+/* ------------------------------
+---------banner---------
+-------------------------------- */
 .banner {
   position: relative;
   width: 100%;
@@ -8,7 +11,7 @@
   height: auto;
 }
 /* ------------------------------
----------banner button---------
+---------banner buttons---------
 -------------------------------- */
 
 .banner .btn1 {
@@ -51,6 +54,7 @@
   border-radius: 0px;
   text-align: center;
 }
+/* --------mouse reach this area--------- */
 .banner .btn2:hover {
   background-color: rgb(122, 122, 122);
   color: white;
@@ -59,26 +63,22 @@
 
 .banner .btn3{
   position: absolute;
-  top: 7%;
+  top: 6%;
   left: 89%;
   transform: translate(-50%, -50%);
-  background:url(langguagebtn.png) no-repeat;
+  background:url(img/langguagebtn.png) no-repeat;
   cursor:pointer;
   border:none;
   height: 10%;
   width: 5%;
 }
 
+/* --------mouse reach this area--------- */
 .banner .btn3:active 
 {   
   background:url(nothing.png) no-repeat;
 }
 
-h2{
-  text-align: center;
-  font-weight: bold;
-
-}
 
 .banner .btn4 {
   position: absolute;
@@ -95,6 +95,7 @@ h2{
   border-radius: 2px;
   text-align: center;
 }
+/* --------mouse reach this area--------- */
 .banner .btn4:hover {
   background-color: rgb(122, 122, 122);
   color: white;
@@ -104,16 +105,14 @@ h2{
   position: absolute;
   height: 10%;
   width: 15%;
-  top: 68%;
+  top: 69%;
   left: 72%;
   transform: translate(-50%, -50%);
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box;
-
-  
+  box-sizing: border-box; 
 }
 
 /* ------------------------------
@@ -123,6 +122,12 @@ h2{
 /* ------------------------------
 ------------functions------------
 -------------------------------- */
+h2{
+  text-align: center;
+  font-weight: bold;
+
+}
+
 .function {
   display: inline;
   justify-content: space-around;
@@ -283,9 +288,6 @@ p {
     border-radius: 2px;
     font-size: 1px;
   }
-
-  
-
 
 }
 

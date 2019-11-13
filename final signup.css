@@ -111,9 +111,26 @@ label {
 -------------------------------- */
 .banner .next {
   position: absolute;
-  top: 50%;
-  left: 85%;
+  top: 70%;
+  left: 48%;
+
 }
+
+.banner .next .nottransparent {
+  opacity: 1;
+  border-radius: 9px;
+  background-color: rgba(0, 0, 0, 0.527);
+  border: none;
+  padding: 10px;
+  
+}
+
+.banner .next .nottransparent:hover {
+  background-color: rgba(251, 255, 0, 0.589);
+  color:rgb(31, 31, 31);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 
 @media screen and  (max-width: 414px) {
   label {
